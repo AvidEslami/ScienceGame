@@ -1,0 +1,119 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>to BEE or not to BEE</title>
+    <meta name="description" content="to BEE or not to BEE">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+       
+</head>
+
+<body>
+    <div>
+        <img src="BEEEEEEE/Bee%20board.png" id="board" height="100%" width="100%" class="hidden">
+        <img src="BEEEEEEE/Board%20game,%20players.png" id="player1" height="75" width="75" class="hidden position0">
+        <img src="BEEEEEEE/Player%20scores.png" id="score1" height="15%" width="18%" class="hidden">
+        <img src="BEEEEEEE/NEXT.png" id="nextbutton" height="12%" width="18%" class="hidden" onclick="nextround()">
+        <img src="BEEEEEEE/Final%20project,%20roulette..png" id="wheel" height="80%" width="40%" class="hidden">
+        <img src="BEEEEEEE/Poison%20roulette.png" id="poisonwheel" height="80%" width="55%" class="hidden">
+        <img src="BEEEEEEE/Final%20project,%20roulette.%20(1).png" id="wheeltip" height="80%" width="5%" class="hidden">
+        <img src="BEEEEEEE/Final%20project%20cover%20page.png" id="cover" onclick="start()" height="95%" width="95%">
+ 
+        </div>
+    
+        <div id="table" class="hidden">
+            <table>
+                <tr>
+                    <td onClick="reply_click(this.innerText)">1</td>
+                    <td onClick="reply_click(this.innerText)">2</td>
+                    <td onClick="reply_click(this.innerText)">3</td>
+                    <td onClick="reply_click(this.innerText)">4</td>
+                    <td onClick="reply_click(this.innerText)">5</td>
+                    <td onClick="reply_click(this.innerText)">6</td>
+                    <td onClick="reply_click(this.innerText)">7</td>
+                    <td onClick="reply_click(this.innerText)">8</td>
+                    <td onClick="reply_click(this.innerText)">9</td>
+                    <td onClick="reply_click(this.innerText)">10</td>
+                <tr>
+                    <td onClick="reply_click(this.innerText)">11</td>
+                    <td onClick="reply_click(this.innerText)">12</td>
+                    <td onClick="reply_click(this.innerText)">13</td>
+                    <td onClick="reply_click(this.innerText)">14</td>
+                    <td onClick="reply_click(this.innerText)">15</td>
+                    <td onClick="reply_click(this.innerText)">16</td>
+                    <td onClick="reply_click(this.innerText)">17</td>
+                    <td onClick="reply_click(this.innerText)">18</td>
+                    <td onClick="reply_click(this.innerText)">19</td>
+                    <td onClick="reply_click(this.innerText)">20</td>
+                <tr>
+                    <td onClick="reply_click(this.innerText)">21</td>
+                    <td onClick="reply_click(this.innerText)">22</td>
+                    <td onClick="reply_click(this.innerText)">23</td>
+                    <td onClick="reply_click(this.innerText)">24</td>
+                    <td onClick="reply_click(this.innerText)">25</td>
+                    <td onClick="reply_click(this.innerText)">26</td>
+                    <td onClick="reply_click(this.innerText)">27</td>
+                    <td onClick="reply_click(this.innerText)">28</td>
+                    <td onClick="reply_click(this.innerText)">29</td>
+                    <td onClick="reply_click(this.innerText)">30</td>
+                <tr>
+                    <td onClick="reply_click(this.innerText)">31</td>
+                    <td onClick="reply_click(this.innerText)">32</td>
+                    <td onClick="reply_click(this.innerText)">33</td>
+                    <td onClick="reply_click(this.innerText)">34</td>
+                    <td onClick="reply_click(this.innerText)">35</td>
+                    <td onClick="reply_click(this.innerText)">36</td>
+                    <td onClick="reply_click(this.innerText)">37</td>
+                    <td onClick="reply_click(this.innerText)">38</td>
+                    <td onClick="reply_click(this.innerText)">39</td>
+                    <td onClick="reply_click(this.innerText)">40</td>
+                <tr>
+                    <td onClick="reply_click(this.innerText)">41</td>
+                    <td onClick="reply_click(this.innerText)">42</td>
+                    <td onClick="reply_click(this.innerText)">43</td>
+                    <td onClick="reply_click(this.innerText)">44</td>
+                    <td onClick="reply_click(this.innerText)">45</td>
+                    <td onClick="reply_click(this.innerText)">46</td>
+                    <td onClick="reply_click(this.innerText)">47</td>
+                    <td onClick="reply_click(this.innerText)">48</td>
+                    <td onClick="reply_click(this.innerText)">49</td>
+                    <td onClick="reply_click(this.innerText)">50</td>
+                </tr>
+                <tr>
+                    <td onClick="reply_click(this.innerText)">51</td>
+                    <td onClick="reply_click(this.innerText)">52</td>
+                    <td onClick="reply_click(this.innerText)">53</td>
+                    <td onClick="reply_click(this.innerText)">54</td>
+                    <td onClick="reply_click(this.innerText)">55</td>
+                    <td onClick="reply_click(this.innerText)">56</td>
+                    <td onClick="reply_click(this.innerText)">57</td>
+                    <td onClick="reply_click(this.innerText)">58</td>
+                    <td onClick="reply_click(this.innerText)">59</td>
+                    <td onClick="reply_click(this.innerText)">60</td>
+                </tr>
+            </table>
+        </div>
+    
+    <div id="question" data-question-selected="" class="hidden">
+        <span id="questionText"></span>
+        <div>
+            <span id="optionA" onclick="answer(this.id)"></span>
+            <span id="optionB" onclick="answer(this.id)"></span>
+            <span id="optionC" onclick="answer(this.id)"></span>
+            <span id="optionD" onclick="answer(this.id)"></span>
+        </div>
+    </div>
+    
+    
+<div id="score1result" class="hidden">0</div>
+
+    
+    <div id="gg" class="hidden">Game Over</div>
+    <div id="end" class="hidden">0</div>
+    
+</body>
+</html>

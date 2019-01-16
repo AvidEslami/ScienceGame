@@ -1,0 +1,182 @@
+#cover {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+ display: block;
+    margin: 0 auto;
+  
+}
+body {
+    position: fixed;
+}
+
+.hidden {
+    display: none;
+}
+
+#player1 {
+    position:absolute;
+    transition: 3s all;
+}
+
+#board {
+    position:fixed;
+        top: 0px;
+        left: 0px;
+}
+
+#score1 {
+    position:fixed;
+    top: 555px;
+    left: 0px;
+}
+
+#score1result {
+    position:fixed;
+    top: 595px;
+    left: 95px;
+}
+
+#nextbutton {
+    position: fixed;
+    top: 565px;
+    left: 1050px;
+}
+
+.position0 {
+    top: 440px;
+    left: 100px;
+}
+
+.position1 {
+    top: 480px;
+    left: 370px;
+}
+
+.position2 {
+    top: 480px;
+    left: 830px;
+}
+
+.position3 {
+    top: 475px;
+    left: 1150px;
+}
+
+.position4 {
+    top: 280px;
+    left: 1190px;
+}
+
+.position5 {
+    top: 25px;
+    left: 1190px;
+    
+}
+
+.position6 {
+    top:25px;
+    left: 860px;
+    
+}
+
+.position7 {
+    top: 25px;
+    left: 375px;
+}
+
+.position8 {
+    top: 25px;
+    left: 70px;
+    
+}
+
+.position9 {
+    top: 250px;
+    left: 60px;
+    
+}
+#wheel {
+    position: fixed;
+    top: 75px;
+    left: 375px;
+}
+
+#wheeltip {
+    position: fixed;
+    transition: 5s ease-out all;
+    top: 75px;
+    left: 615px;
+}
+
+.spinning {
+    transform: rotate(740deg);
+}
+
+#poisonwheel {
+     position: fixed;
+    top: 75px;
+    left: 262px;
+}
+
+table {
+    position: fixed;
+    top: 140px;
+    left: 320px;
+}
+
+td {
+    border: 4px solid floralwhite;
+    background-color: violet;
+    font-size: 60px;
+}
+
+#question {
+    position: fixed;
+    border: 1px solid black;
+    top: 10px;
+    left: 10px;
+    background-color: aqua;
+}
+
+#optionA {
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+#optionB {
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+#optionC {
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+#optionD {
+    border: 1px solid black;
+    background-color: aquamarine;
+}
+
+#gg {
+    position: fixed;
+    border: 1px solid black;
+    top: 10px;
+    left: 10px;
+    background-color: blueviolet;
+    font-size: 40px;
+}
+
+
+#end {
+    position: fixed;
+    border: 1px solid black;
+    top: 70px;
+    left: 10px;
+    background-color: blueviolet;
+    font-size: 40px;
+}
