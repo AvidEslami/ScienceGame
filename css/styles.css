@@ -171,6 +171,15 @@ td {
     font-size: 40px;
 }
 
+#win {
+    position: fixed;
+    border: 1px solid black;
+    top: 10px;
+    left: 10px;
+    background-color: blueviolet;
+    font-size: 40px;
+}
+
 
 #end {
     position: fixed;

@@ -61,7 +61,7 @@ function handlenewturn() {
 
         
     } else if (turn==2) {
-
+document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -88,6 +88,7 @@ function handlenewturn() {
             t.classList.remove("hidden");
         
     } else if (turn==3) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -114,6 +115,7 @@ function handlenewturn() {
         y.classList.add("position2");
         y.classList.remove("position1");
     } else if (turn==4) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-4;
                 var b = document.getElementById("board");
@@ -139,6 +141,7 @@ function handlenewturn() {
             t.classList.remove("hidden");
         
     } else if (turn==5) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -167,6 +170,7 @@ function handlenewturn() {
         
         
     } else if (turn==6) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -193,6 +197,7 @@ function handlenewturn() {
             t.classList.remove("hidden");
         
     } else if (turn==7) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -220,6 +225,7 @@ function handlenewturn() {
         y.classList.remove("position3");
         
     } else if (turn==8) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -245,6 +251,7 @@ function handlenewturn() {
         var t = document.getElementById("table");
             t.classList.remove("hidden");
     } else if (turn==9) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -272,6 +279,7 @@ function handlenewturn() {
         y.classList.remove("position4");
         
     } else if (turn==10) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -298,6 +306,7 @@ function handlenewturn() {
             t.classList.remove("hidden");
         
     } else if (turn==11) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -325,6 +334,7 @@ function handlenewturn() {
         y.classList.remove("position5");
         
     } else if (turn==12) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -351,6 +361,7 @@ function handlenewturn() {
             t.classList.remove("hidden");
         
     } else if (turn==13) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -378,6 +389,7 @@ function handlenewturn() {
         y.classList.remove("position6");
         
     } else if (turn==14) {
+        document.getElementById("score1result").innerText = score1result;
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -535,8 +547,18 @@ function handlenewturn() {
         var y = document.getElementById("player1");
         y.classList.add("position0");
         y.classList.remove("position9");
+        console.log (score1result);
+        if (score1result>30) {
+            var b = document.getElementById("board");
+                b.classList.add("hidden");
+                var c = document.getElementById("cover");
+                c.classList.remove("hidden");
+                var g = document.getElementById("win");
+                g.classList.remove("hidden");
+        } else {
+                    turn=0
+        }
 
-        turn=0
     }
     
     
@@ -817,145 +839,216 @@ function reply_click(innerText) {
             optionDElement.innerText = "Nitrous Oxide";
             break;
         case "31":
-            questionTextElement.innerText = "What is one of the most efficient ways to help bees and us humans at the same time";
-            optionAElement.innerText = "Plant grass";
-            optionBElement.innerText = "Make hives in our homes";
-            optionCElement.innerText = "Make urban gardens and hives";
-            optionDElement.innerText = "Find the Queen Bee and retrieve her to the hive";
+            questionTextElement.innerText = "Which of the following is not a polyatomic ion?";
+            optionAElement.innerText = "Nitrite";
+            optionBElement.innerText = "Phosphite";
+            optionCElement.innerText = "Chlorate";
+            optionDElement.innerText = "Phosphate";
             break;
         case "32":
-            questionTextElement.innerText = "How much extra honey do bees produce?";
-            optionAElement.innerText = "2 times their need";
-            optionBElement.innerText = "4 times their need";
-            optionCElement.innerText = "3 times their need";
-            optionDElement.innerText = "45 times their need";
+            questionTextElement.innerText = "True or False, an atom is the basic unit of life.";
+            optionAElement.innerText = "";
+            optionBElement.innerText = "True";
+            optionCElement.innerText = "False";
+            optionDElement.innerText = "";
             break;
         case "33":
-            questionTextElement.innerText = "What gender are worker bees?";
-            optionAElement.innerText = "Male";
-            optionBElement.innerText = "Female";
-            optionCElement.innerText = ".";
-            optionDElement.innerText = ".";
+            questionTextElement.innerText = "Rows in a periodic table indicate ______ and columns indicate _______.";
+            optionAElement.innerText = "=Valence electrons, number of rings";
+            optionBElement.innerText = "Number of rings, valence electrons";
+            optionCElement.innerText = "Number of protons, number of electrons";
+            optionDElement.innerText = "Number of rings, number of protons";
             break;
         case "34":
-            questionTextElement.innerText = "How many types of bees live in a hive?";
-            optionAElement.innerText = "Drone, queen, worker, nurse, infants";
-            optionBElement.innerText = "Male, female";
-            optionCElement.innerText = "Male, queen, worker";
-            optionDElement.innerText = "Male, queen, honey collectors";
+            questionTextElement.innerText = "Which of the following is not part of the particle theory?";
+            optionAElement.innerText = "Particles grow in size when heated";
+            optionBElement.innerText = "All matter is made up of tiny particles.";
+            optionCElement.innerText = "The particles of matter are always moving.";
+            optionDElement.innerText = "Adding heat to matter makes the particles move faster.";
             break;
         case "35":
-            questionTextElement.innerText = "How fast can a bee fly?";
-            optionAElement.innerText = "1 km/hour";
-            optionBElement.innerText = "10 km/hour";
-            optionCElement.innerText = "24 km/hour";
-            optionDElement.innerText = "25 km/hour";
+            questionTextElement.innerText = "True or False? Etching glass with acid is a chemical change";
+            optionAElement.innerText = "";
+            optionBElement.innerText = "True";
+            optionCElement.innerText = "";
+            optionDElement.innerText = "False";
             break;
         case "36":
-            questionTextElement.innerText = "What happens if a queen dies?";
-            optionAElement.innerText = "The colony leaves";
-            optionBElement.innerText = "The colony all dies";
-            optionCElement.innerText = "The workers pick a new queen and the nurse bees feed it royal jelly";
-            optionDElement.innerText = "The oldest nurse bee becomes the new queen bee";
+            questionTextElement.innerText = "True or False? Lithium is more reactive than Iron";
+            optionAElement.innerText = "";
+            optionBElement.innerText = "False";
+            optionCElement.innerText = "True";
+            optionDElement.innerText = "";
             break;
         case "37":
-            questionTextElement.innerText = "What is the main reason bears attack hives?";
-            optionAElement.innerText = "Honey";
-            optionBElement.innerText = "Bees";
-            optionCElement.innerText = "Bee larvae";
-            optionDElement.innerText = "To interact with bees";
+            questionTextElement.innerText = "Which of the following is not a transition metal?";
+            optionAElement.innerText = "Platinum";
+            optionBElement.innerText = "Cobalt";
+            optionCElement.innerText = "Caesium";
+            optionDElement.innerText = "Iridium";
             break;
         case "38":
-            questionTextElement.innerText = "What happens if a worker bee uses her stinger on a non allergic human?";
-            optionAElement.innerText = "Human dies";
-            optionBElement.innerText = "Both die";
-            optionCElement.innerText = "Bee dies";
-            optionDElement.innerText = "Both survive";
+            questionTextElement.innerText = "What is the cellular membrane made of?";
+            optionAElement.innerText = "Fibers";
+            optionBElement.innerText = "Water";
+            optionCElement.innerText = "Phospholipids";
+            optionDElement.innerText = "Fat";
             break;
         case "39":
-            questionTextElement.innerText = "What was honey used for in Ancient Egypt?";
-            optionAElement.innerText = "Sweeteners";
-            optionBElement.innerText = "To pay taxes";
-            optionCElement.innerText = "A royalty treat";
-            optionDElement.innerText = "As glue";
-            break;
-        case "40":
-            questionTextElement.innerText = "Why do honey bees make hexagons?";
-            optionAElement.innerText = "Just because";
-            optionBElement.innerText = "They like hexagons";
-            optionCElement.innerText = "Over the years they have evolved into learning that the hexagon is the least time consuming and best shape for their hives";
-            optionDElement.innerText = "They dont only make hexagons they make octagons in the winter";
-            break;
-        case "41":
-            questionTextElement.innerText = "There are currently ______ beekeepers in Canada?";
-            optionAElement.innerText = "30 000";
-            optionBElement.innerText = "43 000";
-            optionCElement.innerText = "35 000";
-            optionDElement.innerText = "45 000";
-            break;
-        case "42":
-            questionTextElement.innerText = "What is the scientific name of the bee?";
-            optionAElement.innerText = "Anthophila";
-            optionBElement.innerText = "Arthropoda";
-            optionCElement.innerText = "Diptera";
-            optionDElement.innerText = "Bos Taurus";
-            break;
-        case "43":
-            questionTextElement.innerText = "Why can bee populated communities and non bee populated communities be equally affected by bee population decline?";
-            optionAElement.innerText = "They cant be affected equally";
-            optionBElement.innerText = "Since the bee is a keystone species";
-            optionCElement.innerText = "The bee will eventually migrate to that area";
-            optionDElement.innerText = "The bee population will have no affect on any other area";
-            break;
-        case "44":
-            questionTextElement.innerText = "What is the hive made of?";
-            optionAElement.innerText = "Twigs";
-            optionBElement.innerText = "Wax";
-            optionCElement.innerText = "Feces";
-            optionDElement.innerText = "Mud";
-            break;
-        case "45":
-            questionTextElement.innerText = "How many known bee species are there?";
-            optionAElement.innerText = "10 000";
-            optionBElement.innerText = "20 000";
-            optionCElement.innerText = "30 000";
-            optionDElement.innerText = "40 000";
-            break;
-        case "46":
-            questionTextElement.innerText = "How long do Killer bees chase when they are agitated before giving up?";
-            optionAElement.innerText = "1/4 km";
-            optionBElement.innerText = "1/5 km";
-            optionCElement.innerText = "1/2 km";
-            optionDElement.innerText = "1 km";
-            break;
-        case "47":
-            questionTextElement.innerText = "What do beekeepers use to calm the bees down before they collect the honey?";
-            optionAElement.innerText = "Food";
-            optionBElement.innerText = "Other insects";
-            optionCElement.innerText = "Cheese";
-            optionDElement.innerText = "Smoke";
-            break;
-        case "48":
-            questionTextElement.innerText = "Which of the following is not a communication method?";
-            optionAElement.innerText = "Pheromones";
-            optionBElement.innerText = "Singing";
-            optionCElement.innerText = "Dancing";
+            questionTextElement.innerText = "Which organ system is in charge of movement?";
+            optionAElement.innerText = "Muscular";
+            optionBElement.innerText = "Circulatory";
+            optionCElement.innerText = "Nervous";
             optionDElement.innerText = "All of the above";
             break;
+        case "40":
+            questionTextElement.innerText = "Which organ is in charge of creating amylase?";
+            optionAElement.innerText = "Liver";
+            optionBElement.innerText = "Pancreas";
+            optionCElement.innerText = "Salivary gland";
+            optionDElement.innerText = "Gallbladder";
+            break;
+        case "41":
+            questionTextElement.innerText = "What is the process in which cancer cells travel through the bloodstream?";
+            optionAElement.innerText = "Chemotherapy";
+            optionBElement.innerText = "Homeostasis";
+            optionCElement.innerText = "Metabolism";
+            optionDElement.innerText = "Metastasis";
+            break;
+        case "42":
+            questionTextElement.innerText = "True or False? The rough endoplasmic reticulum is covered in ribosomes.";
+            optionAElement.innerText = "True";
+            optionBElement.innerText = "False";
+            optionCElement.innerText = "";
+            optionDElement.innerText = "";
+            break;
+        case "43":
+            questionTextElement.innerText = "True or False? The mitochondria is the only organelle that creates energy.";
+            optionAElement.innerText = "False";
+            optionBElement.innerText = "True";
+            optionCElement.innerText = "";
+            optionDElement.innerText = "";
+            break;
+        case "44":
+            questionTextElement.innerText = "True or False? The Nucleus is within the Nucleolus.";
+            optionAElement.innerText = "True";
+            optionBElement.innerText = "False";
+            optionCElement.innerText = "";
+            optionDElement.innerText = "";
+            break;
+        case "45":
+            questionTextElement.innerText = "Which of the following is not a cancer treatment method?";
+            optionAElement.innerText = "Chemotherapy";
+            optionBElement.innerText = "Antioxidants";
+            optionCElement.innerText = "Surgery";
+            optionDElement.innerText = "Radiation";
+            break;
+        case "46":
+            questionTextElement.innerText = "True or False? The primary colours of light are red,blue,yellow";
+            optionAElement.innerText = "False";
+            optionBElement.innerText = "True";
+            optionCElement.innerText = "";
+            optionDElement.innerText = "";
+            break;
+        case "47":
+            questionTextElement.innerText = "True or False? There is only one type of cone in the human eye.";
+            optionAElement.innerText = "";
+            optionBElement.innerText = "";
+            optionCElement.innerText = "True";
+            optionDElement.innerText = "False";
+            break;
+        case "48":
+            questionTextElement.innerText = "What is presbyopia?";
+            optionAElement.innerText = "Farsightedness";
+            optionBElement.innerText = "Farsightedness due to aging";
+            optionCElement.innerText = "Nearsightedness";
+            optionDElement.innerText = "None of the above";
+            break;
         case "49":
-            questionTextElement.innerText = "What percentage of plants require bees to pollinate them?";
-            optionAElement.innerText = "50%";
-            optionBElement.innerText = "72%";
-            optionCElement.innerText = "88%";
-            optionDElement.innerText = "20%";
+            questionTextElement.innerText = "What is Hyperopia?";
+            optionAElement.innerText = "Nearsightedness";
+            optionBElement.innerText = "Farsightedness due to aging";
+            optionCElement.innerText = "Farsightedness";
+            optionDElement.innerText = "None of the above";
             break;
         case "50":
-            questionTextElement.innerText = "How many eyes do bees have?";
-            optionAElement.innerText = "2";
-            optionBElement.innerText = "3";
-            optionCElement.innerText = "4";
-            optionDElement.innerText = "5";
+            questionTextElement.innerText = "Which of the following is not part of the eye?";
+            optionAElement.innerText = "Retina";
+            optionBElement.innerText = "Optic nerve";
+            optionCElement.innerText = "Lens";
+            optionDElement.innerText = "Eyelid";
             break;
+    case "51":
+            questionTextElement.innerText = "Refracted rays in a diverging lens ____.";
+            optionAElement.innerText = "Come together";
+            optionBElement.innerText = "Spread apart";
+            optionCElement.innerText = "Stay parallel";
+            optionDElement.innerText = "None of the above";
+            break;
+    case "52":
+            questionTextElement.innerText = "Refracted rays in a converging lens____.";
+            optionAElement.innerText = "Come together";
+            optionBElement.innerText = "Spread apart";
+            optionCElement.innerText = "Stay parallel";
+            optionDElement.innerText = "None of the above";
+            break;
+    case "53":
+            questionTextElement.innerText = "Which of the following is not a proxy record?";
+            optionAElement.innerText = "Coral reefs";
+            optionBElement.innerText = "Tree Rings";
+            optionCElement.innerText = "Ice Cores";
+            optionDElement.innerText = "The Atmosphere";
+            break;
+    case "54":
+            questionTextElement.innerText = "Which of the following do meteorologists not measure?";
+            optionAElement.innerText = "Temperature";
+            optionBElement.innerText = "UV";
+            optionCElement.innerText = "Pollen";
+            optionDElement.innerText = "Climate";
+            break;
+    case "55":
+            questionTextElement.innerText = "Which of the following is not a scientist that studies climate?";
+            optionAElement.innerText = "Climatologist";
+            optionBElement.innerText = "Atmospheric scientist";
+            optionCElement.innerText = "Paleoclimatologist";
+            optionDElement.innerText = "Climatographer";
+            break;
+    case "56":
+            questionTextElement.innerText = "True or False? The earth absorbs more radiation than it emits.";
+            optionAElement.innerText = "False";
+            optionBElement.innerText = "True";
+            optionCElement.innerText = "";
+            optionDElement.innerText = "";
+            break;
+    case "57":
+            questionTextElement.innerText = "What percentage of solar radiation is absorbed by the ocean and land?";
+            optionAElement.innerText = "41%";
+            optionBElement.innerText = "51%";
+            optionCElement.innerText = "61%";
+            optionDElement.innerText = "71%";
+            break;
+    case "58":
+            questionTextElement.innerText = "What percentage of solar radiation is reflected by the atmosphere?";
+            optionAElement.innerText = "2%";
+            optionBElement.innerText = "20%";
+            optionCElement.innerText = "6%";
+            optionDElement.innerText = "51%";
+            break;
+    case "59":
+            questionTextElement.innerText = "What factors are taken into account for climate zones?";
+            optionAElement.innerText = "Temperature";
+            optionBElement.innerText = "Precipitation";
+            optionCElement.innerText = "Plant communities";
+            optionDElement.innerText = "All of the above";
+            break;
+    case "60":
+            questionTextElement.innerText = "True and False. Ice sheets are thin pieces of ice floating in the ocean";
+            optionAElement.innerText = "True";
+            optionBElement.innerText = "False";
+            optionCElement.innerText = "";
+            optionDElement.innerText = "";
+            break;
+
             
         
     }
