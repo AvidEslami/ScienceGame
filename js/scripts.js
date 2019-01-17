@@ -28,7 +28,9 @@ function nextround(){
 var spinnerValue;
 
 function handlenewturn() {
-      if (turn==1) {
+
+       if (turn==1) {
+
           if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -51,11 +53,15 @@ function handlenewturn() {
                 var s = document.getElementById("wheeltip");
                 s.classList.add("hidden");
             }
+                                     score1result = score1result + 4;
+           document.getElementById("score1result").innerText = score1result;
         var y = document.getElementById ("player1");
         y.classList.add("position1");
         y.classList.remove("position0");
+
         
     } else if (turn==2) {
+
         if (spinnerValue =="dead") {
                 turn = turn-6;
                 var b = document.getElementById("board");
@@ -529,6 +535,7 @@ function handlenewturn() {
         var y = document.getElementById("player1");
         y.classList.add("position0");
         y.classList.remove("position9");
+
         turn=0
     }
     
@@ -635,7 +642,7 @@ function reply_click(innerText) {
             optionDElement.innerText = "Yellow Flickering Flame";
             break;
         case "6":
-            questionTextElement.innerText = "Which of the following is not a major cause of bee population decline?";
+            questionTextElement.innerText = "Which of the following is not a unique determining factor for whether or not a substance is a base?";
             optionAElement.innerText = "Contains OH-";
             optionBElement.innerText = "Neutralises acids";
             optionCElement.innerText = "High on the pH scale";
