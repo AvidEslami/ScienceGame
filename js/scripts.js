@@ -1064,7 +1064,7 @@ function answer(idClicked) {
     
     if (idClicked === "optionA") {
         
-            if (questionId === "1" || questionId === "2" || questionId === "20" || questionId === "21" || questionId === "26" || questionId === "27" || questionId === "34" || questionId === "42" || questionId === "46") {
+            if (questionId === "1" || questionId === "2" || questionId === "20" || questionId === "21" || questionId === "26" || questionId === "27" || questionId === "34" || questionId === "42" || questionId === "46" || questionId === "52" || questionId === "56") {
             //correct
             score1result = score1result+2;
             document.getElementById("score1result").innerText = score1result;
@@ -1138,7 +1138,7 @@ function answer(idClicked) {
         }
         
     } else if (idClicked === "optionB") {
-        if (questionId === "4" || questionId === "13" || questionId === "14" || questionId === "16" || questionId === "17" || questionId === "28" || questionId === "31" || questionId === "33" || questionId === "43" || questionId === "44" || questionId === "45" || questionId === "48") {
+        if (questionId === "4" || questionId === "13" || questionId === "14" || questionId === "16" || questionId === "17" || questionId === "28" || questionId === "31" || questionId === "33" || questionId === "43" || questionId === "44" || questionId === "45" || questionId === "48" || questionId === "51" || questionId === "57" || questionId === "60") {
         score1result = score1result+2;
             document.getElementById("score1result").innerText = score1result;
             var s = document.getElementById("question");
@@ -1209,7 +1209,7 @@ function answer(idClicked) {
             },100);
         }
     } else if (idClicked === "optionC") {
-        if (questionId === "3" || questionId === "5" || questionId === "7" || questionId === "8" || questionId === "9" || questionId === "11" || questionId === "12" || questionId === "15" || questionId === "19" || questionId === "24" || questionId === "32" || questionId === "36" || questionId === "37" || questionId === "38" || questionId === "40" || questionId === "49") {
+        if (questionId === "3" || questionId === "5" || questionId === "7" || questionId === "8" || questionId === "9" || questionId === "11" || questionId === "12" || questionId === "15" || questionId === "19" || questionId === "24" || questionId === "32" || questionId === "36" || questionId === "37" || questionId === "38" || questionId === "40" || questionId === "49" || questionId === "58") {
         score1result = score1result+2;
             document.getElementById("score1result").innerText = score1result;
             var s = document.getElementById("question");
@@ -1281,7 +1281,7 @@ function answer(idClicked) {
             
         }
     } else if (idClicked === "optionD") {
-        if (questionId === "6" || questionId === "10" || questionId === "18" || questionId === "22" || questionId === "23" || questionId === "25" || questionId === "29" || questionId === "30" || questionId === "35" || questionId === "39" || questionId === "41" || questionId === "47" || questionId === "50") {
+        if (questionId === "6" || questionId === "10" || questionId === "18" || questionId === "22" || questionId === "23" || questionId === "25" || questionId === "29" || questionId === "30" || questionId === "35" || questionId === "39" || questionId === "41" || questionId === "47" || questionId === "50" || questionId === "53" || questionId === "54" || questionId === "55" || questionId === "59") {
         score1result = score1result+2;
             document.getElementById("score1result").innerText = score1result;
             var s = document.getElementById("question");
