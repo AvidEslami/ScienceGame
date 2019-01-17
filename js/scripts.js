@@ -719,11 +719,11 @@ function reply_click(innerText) {
             optionDElement.innerText = "";
             break;
         case "17":
-            questionTextElement.innerText = "What percentage of our crops are bees responsible for?";
-            optionAElement.innerText = "20%";
-            optionBElement.innerText = "30%";
-            optionCElement.innerText = "40%";
-            optionDElement.innerText = "50%";
+            questionTextElement.innerText = "True or False? Koppen used Temperature, Precipitation, and Plant communities for his climate classification system.";
+            optionAElement.innerText = "";
+            optionBElement.innerText = "True";
+            optionCElement.innerText = "False";
+            optionDElement.innerText = "";
             break;
         case "18":
             questionTextElement.innerText = "Frequency and wavelength are ____ related";
@@ -754,67 +754,67 @@ function reply_click(innerText) {
             optionDElement.innerText = "When light diffuses through a tiny membrane to only allow a small portion to reflect";
             break;
         case "22":
-            questionTextElement.innerText = "Bee’s make occasional trips outside in the winter months for?";
-            optionAElement.innerText = "Getting nectar";
-            optionBElement.innerText = "Hunting";
-            optionCElement.innerText = "Protecting the hive";
-            optionDElement.innerText = "Cleansing themselves";
+            questionTextElement.innerText = "What is the index of refraction?";
+            optionAElement.innerText = "Ratio of speed of light in a medium to the speed of light in a vacuum";
+            optionBElement.innerText = "Ratio of speed of sound in a vacuum to speed of sound in a medium";
+            optionCElement.innerText = "Ratio of speed of light in a vacuum to speed of sound in a medium";
+            optionDElement.innerText = "Ratio of speed of light in a vacuum to speed of light in a medium";
             break;
         case "23":
-            questionTextElement.innerText = "What should you do if your hive has been abandoned or is experiencing a heavy loss of bees?";
-            optionAElement.innerText = "Buy a new hive";
-            optionBElement.innerText = "Search for them";
-            optionCElement.innerText = "Wait for them to comeback";
-            optionDElement.innerText = "Report it to the Survey/Data Collection to determine the extent of CCD and the current status of honey bee colony production and health";
+            questionTextElement.innerText = "True or False? Light bends towards the normal when the speed of light in the second medium is less than the first and vice versa.  ";
+            optionAElement.innerText = "";
+            optionBElement.innerText = "";
+            optionCElement.innerText = "false";
+            optionDElement.innerText = "true";
             break;
         case "24":
-            questionTextElement.innerText = "How do bees collect nectar?";
-            optionAElement.innerText = "Brushes to their skin";
-            optionBElement.innerText = "With their nose";
-            optionCElement.innerText = "With their tongue";
-            optionDElement.innerText = "Use their tongue";
+            questionTextElement.innerText = "True or False? Cones in eyes detect low levels of light and therefore allow for “night vision”.";
+            optionAElement.innerText = "";
+            optionBElement.innerText = "true";
+            optionCElement.innerText = "false";
+            optionDElement.innerText = "";
             break;
         case "25":
-            questionTextElement.innerText = "What will happen if the bee population disappears?";
-            optionAElement.innerText = "We would have to manually pollinate";
-            optionBElement.innerText = "Loss of many crops and crop price rise, honey price rises";
-            optionCElement.innerText = "We need to use alternative pollinators";
-            optionDElement.innerText = "All of the above";
+            questionTextElement.innerText = "Altitude is ____ and latitude is ____.";
+            optionAElement.innerText = "Distance from the equator; height above ground level";
+            optionBElement.innerText = "Height above sea level; distance from the north pole";
+            optionCElement.innerText = "Height above ground level; distance from the equator";
+            optionDElement.innerText = "Height above sea level; distance from equator";
             break;
         case "26":
-            questionTextElement.innerText = "What could be a possible solution for CCD?";
-            optionAElement.innerText = "Turn to other pollinators";
-            optionBElement.innerText = "Throw garbage at bee hives";
-            optionCElement.innerText = "Find a way to make better tasting synthetic honey";
-            optionDElement.innerText = "Find out why the problem is occuring";
+            questionTextElement.innerText = "The ____ side of a mountain receives little rain, while the ____ side receives lots of rain.";
+            optionAElement.innerText = "Leeward; Windward";
+            optionBElement.innerText = "Windward; Leeward";
+            optionCElement.innerText = "Lindward; Weeward";
+            optionDElement.innerText = "Dryward; Wetward";
             break;
         case "27":
-            questionTextElement.innerText = "Which community (local,national,global) will suffer from a bee decline?";
-            optionAElement.innerText = "ALL will equally suffer";
-            optionBElement.innerText = "ALL will equally suffer";
-            optionCElement.innerText = "ALL will equally suffer";
-            optionDElement.innerText = "ALL will equally suffer";
+            questionTextElement.innerText = "True or False? Most of the energy absorbed by the earth is emitted at lower energy gamma radiation.";
+            optionAElement.innerText = "false";
+            optionBElement.innerText = "";
+            optionCElement.innerText = "true";
+            optionDElement.innerText = "";
             break;
         case "28":
-            questionTextElement.innerText = "How much of the worlds GDP do the bees support?";
-            optionAElement.innerText = "100 billion";
-            optionBElement.innerText = "200 billion";
-            optionCElement.innerText = "10 billion";
-            optionDElement.innerText = "50 billion";
+            questionTextElement.innerText = "Which of the following is not a greenhouse gas?";
+            optionAElement.innerText = "Methane";
+            optionBElement.innerText = "Nitrogen";
+            optionCElement.innerText = "Carbon Dioxide";
+            optionDElement.innerText = "Water Vapour";
             break;
         case "29":
-            questionTextElement.innerText = "What is one unfortunately easy solve to the parasite issue that would work on humans but doesn't work on bees?";
-            optionAElement.innerText = "Surgery";
-            optionBElement.innerText = "Vaccines";
-            optionCElement.innerText = "Pills";
-            optionDElement.innerText = "All of the above";
+            questionTextElement.innerText = "How much of the incoming solar energy is reflected by the clouds?";
+            optionAElement.innerText = "6%";
+            optionBElement.innerText = "4%";
+            optionCElement.innerText = "19%";
+            optionDElement.innerText = "20%";
             break;
         case "30":
-            questionTextElement.innerText = "What can you do to help the bees?";
-            optionAElement.innerText = "Spray pesticides on your lawn";
-            optionBElement.innerText = "Make a bee lover sign on the front of your door";
-            optionCElement.innerText = "Buy food for them";
-            optionDElement.innerText = "Dont spray pesticides on your lawn";
+            questionTextElement.innerText = "Which of these greenhouse gasses can absorb the most infrared radiation?";
+            optionAElement.innerText = "Water Vapour";
+            optionBElement.innerText = "Carbon Dioxide";
+            optionCElement.innerText = "Methane";
+            optionDElement.innerText = "Nitrous Oxide";
             break;
         case "31":
             questionTextElement.innerText = "What is one of the most efficient ways to help bees and us humans at the same time";
