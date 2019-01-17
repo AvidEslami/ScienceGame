@@ -663,60 +663,60 @@ function reply_click(innerText) {
             optionDElement.innerText = "";
             break;
         case "9":
-            questionTextElement.innerText = "What is the primary food for bees?";
-            optionAElement.innerText = "Nectar";
-            optionBElement.innerText = "Pollen";
-            optionCElement.innerText = "Honey";
-            optionDElement.innerText = "Flowers";
+            questionTextElement.innerText = "A ____ cell is a complex type of cell which has evolved from a more simple type of cell.";
+            optionAElement.innerText = "Protogenic";
+            optionBElement.innerText = "Euler";
+            optionCElement.innerText = "Eukaryotic";
+            optionDElement.innerText = "Endothelial";
             break;
         case "10":
-            questionTextElement.innerText = "What does the honey bee population do over the winter?";
-            optionAElement.innerText = "Pollinate more flowers";
-            optionBElement.innerText = "Migrate to a warmer area";
-            optionCElement.innerText = "Take over another hive";
-            optionDElement.innerText = "keep the queen warm and patiently wait for spring";
+            questionTextElement.innerText = "A ____ is a cylindrical organelle located near the nucleus of an animal cell that always occurs in pairs.";
+            optionAElement.innerText = "Centromere";
+            optionBElement.innerText = "Microtubule";
+            optionCElement.innerText = "Cytoskeleton";
+            optionDElement.innerText = "Centriole";
             break;
         case "11":
-            questionTextElement.innerText = "How much honey does a small colony of bees need to survive the winter?";
-            optionAElement.innerText = "15 pounds";
-            optionBElement.innerText = "25 pounds";
-            optionCElement.innerText = "35 pounds";
-            optionDElement.innerText = "45 pounds";
+            questionTextElement.innerText = "An organism made up of ____ is called a ____ organism.";
+            optionAElement.innerText = "One cell; Multicellular";
+            optionBElement.innerText = "Many cells; plenti cellular";
+            optionCElement.innerText = "Many cells; Multicellular";
+            optionDElement.innerText = "Many cells; cellular";
             break;
         case "12":
-            questionTextElement.innerText = "A queen bee lays______ eggs per day?";
-            optionAElement.innerText = "10-20";
-            optionBElement.innerText = "100-150";
-            optionCElement.innerText = "1000-1500";
-            optionDElement.innerText = "2450";
+            questionTextElement.innerText = "What is the main function of the Golgi Body";
+            optionAElement.innerText = "Transport materials throughout the cell";
+            optionBElement.innerText = "Stores materials for the cell";
+            optionCElement.innerText = "Collects and processes materials to be removed from the cell";
+            optionDElement.innerText = "Supports the cell and allows certain substances and others out";
             break;
         case "13":
-            questionTextElement.innerText = "How many eggs can a queen bee lay in her lifetime?";
-            optionAElement.innerText = "1 billion";
-            optionBElement.innerText = "1 million";
-            optionCElement.innerText = "1 thousand";
-            optionDElement.innerText = "1 trillion";
+            questionTextElement.innerText = "Which of the following is not a characteristic of all living things?";
+            optionAElement.innerText = "Living things produce waste";
+            optionBElement.innerText = "Living things require oxygen";
+            optionCElement.innerText = "Living things can sense and respond to changes in the environment";
+            optionDElement.innerText = "Living things require energy";
             break;
         case "14":
-            questionTextElement.innerText = "What is the role of the male honey bees?";
-            optionAElement.innerText = "Protect the hive";
-            optionBElement.innerText = "Provide sperm to the queen";
-            optionCElement.innerText = "Search for flowers";
-            optionDElement.innerText = "Hunt down parasites";
+            questionTextElement.innerText = "In what stage of mitosis do the chromosomes divide?";
+            optionAElement.innerText = "Metaphase";
+            optionBElement.innerText = "Anaphase";
+            optionCElement.innerText = "Telophase";
+            optionDElement.innerText = "Prophase";
             break;
         case "15":
-            questionTextElement.innerText = "What does CCD stand for?";
-            optionAElement.innerText = "Criminal Cat Disorder";
-            optionBElement.innerText = "Collapse Colony Disorder";
-            optionCElement.innerText = "Collony Collapse Disorder";
-            optionDElement.innerText = "Colony Cancer Disorder";
+            questionTextElement.innerText = "True or False? The division of the cell (cytokinesis) occurs right after the end.";
+            optionAElement.innerText = "";
+            optionBElement.innerText = "True";
+            optionCElement.innerText = "False";
+            optionDElement.innerText = "";
             break;
         case "16":
-            questionTextElement.innerText = "Why are bees considered Keystone species?";
-            optionAElement.innerText = "They are natural predators to keep the food chain balance";
-            optionBElement.innerText = "They are at the center of the food web. If you take them out the whole food web will suffer";
-            optionCElement.innerText = "They fit through keys";
-            optionDElement.innerText = "They are very toxic to humans";
+            questionTextElement.innerText = "True or False? The centromere is the piece of the chromosome that connects the upper and lower sister chromatids.";
+            optionAElement.innerText = "";
+            optionBElement.innerText = "True";
+            optionCElement.innerText = "False";
+            optionDElement.innerText = "";
             break;
         case "17":
             questionTextElement.innerText = "What percentage of our crops are bees responsible for?";
@@ -726,32 +726,32 @@ function reply_click(innerText) {
             optionDElement.innerText = "50%";
             break;
         case "18":
-            questionTextElement.innerText = "What is the role of nurse bee’s?";
-            optionAElement.innerText = "They provide medical support";
-            optionBElement.innerText = "They help treat the queen";
-            optionCElement.innerText = "They feed the worker bees";
-            optionDElement.innerText = "They feed the larva";
+            questionTextElement.innerText = "Frequency and wavelength are ____ related";
+            optionAElement.innerText = "Are";
+            optionBElement.innerText = "Directly";
+            optionCElement.innerText = "Not";
+            optionDElement.innerText = "Indirectly";
             break;
         case "19":
-            questionTextElement.innerText = "How long have bees been producing honey from flowering plants?";
-            optionAElement.innerText = "1 million years";
-            optionBElement.innerText = "20 000 years";
-            optionCElement.innerText = "10-20 million years";
-            optionDElement.innerText = "40+ million years";
+            questionTextElement.innerText = "Scratching, crushing or rubbing certain crystals to produce light is known as____?";
+            optionAElement.innerText = "Chemiluminescence";
+            optionBElement.innerText = "Bioluminescence";
+            optionCElement.innerText = "Triboluminescence";
+            optionDElement.innerText = "Fluorescence";
             break;
         case "20":
-            questionTextElement.innerText = "What is the number one cause of the loss of healthy bee populations?";
-            optionAElement.innerText = "Neonicotinoids (toxins)";
-            optionBElement.innerText = "Habitat loss";
-            optionCElement.innerText = "Starvation";
-            optionDElement.innerText = "Poaching";
+            questionTextElement.innerText = "What is the speed of light?";
+            optionAElement.innerText = "3.00 x 10^8 m/s";
+            optionBElement.innerText = "3.00 x 10^7 m/s";
+            optionCElement.innerText = "3.8 x 10^8 m/s";
+            optionDElement.innerText = "3.00 x 10^9 m/s";
             break;
         case "21":
-            questionTextElement.innerText = "Bee Colonies use their odour to_____?";
-            optionAElement.innerText = "Distinguish between friendly or intruder bee's";
-            optionBElement.innerText = "Odour for pleasure";
-            optionCElement.innerText = "Scare off other colonies or bees";
-            optionDElement.innerText = "Mate";
+            questionTextElement.innerText = "What is diffuse reflection?";
+            optionAElement.innerText = "When light reflects off of an irregular surface";
+            optionBElement.innerText = "When light diffuses through a surface while also reflecting";
+            optionCElement.innerText = "When light reflects after diffusing through a surface";
+            optionDElement.innerText = "When light diffuses through a tiny membrane to only allow a small portion to reflect";
             break;
         case "22":
             questionTextElement.innerText = "Bee’s make occasional trips outside in the winter months for?";
@@ -956,6 +956,7 @@ function reply_click(innerText) {
             optionCElement.innerText = "4";
             optionDElement.innerText = "5";
             break;
+            
         
     }
         
@@ -970,7 +971,7 @@ function answer(idClicked) {
     
     if (idClicked === "optionA") {
         
-        if (questionId === "1" || questionId === "2" || questionId === "20" || questionId === "21" || questionId === "26" || questionId === "27" || questionId === "34" || questionId === "42" || questionId === "46") {
+            if (questionId === "1" || questionId === "2" || questionId === "20" || questionId === "21" || questionId === "26" || questionId === "27" || questionId === "34" || questionId === "42" || questionId === "46") {
             //correct
             score1result = score1result+2;
             document.getElementById("score1result").innerText = score1result;
@@ -1044,7 +1045,7 @@ function answer(idClicked) {
         }
         
     } else if (idClicked === "optionB") {
-        if (questionId === "4" || questionId === "13" || questionId === "14" || questionId === "16" || questionId === "17" || questionId === "27" || questionId === "28" || questionId === "31" || questionId === "33" || questionId === "39" || questionId === "43" || questionId === "44" || questionId === "45" || questionId === "48") {
+        if (questionId === "4" || questionId === "13" || questionId === "14" || questionId === "16" || questionId === "17" || questionId === "28" || questionId === "31" || questionId === "33" || questionId === "43" || questionId === "44" || questionId === "45" || questionId === "48") {
         score1result = score1result+2;
             document.getElementById("score1result").innerText = score1result;
             var s = document.getElementById("question");
@@ -1115,7 +1116,7 @@ function answer(idClicked) {
             },100);
         }
     } else if (idClicked === "optionC") {
-        if (questionId === "3" || questionId === "5" || questionId === "7" || questionId === "8" || questionId === "9" || questionId === "11" || questionId === "12" || questionId === "15" || questionId === "19" || questionId === "24" || questionId === "27" || questionId === "32" || questionId === "36" || questionId === "37" || questionId === "38" || questionId === "40" || questionId === "49") {
+        if (questionId === "3" || questionId === "5" || questionId === "7" || questionId === "8" || questionId === "9" || questionId === "11" || questionId === "12" || questionId === "15" || questionId === "19" || questionId === "24" || questionId === "32" || questionId === "36" || questionId === "37" || questionId === "38" || questionId === "40" || questionId === "49") {
         score1result = score1result+2;
             document.getElementById("score1result").innerText = score1result;
             var s = document.getElementById("question");
@@ -1187,7 +1188,7 @@ function answer(idClicked) {
             
         }
     } else if (idClicked === "optionD") {
-        if (questionId === "6" || questionId === "10" || questionId === "18" || questionId === "22" || questionId === "23" || questionId === "25" || questionId === "27" || questionId === "29" || questionId === "30" || questionId === "35" || questionId === "41" || questionId === "47" || questionId === "50") {
+        if (questionId === "6" || questionId === "10" || questionId === "18" || questionId === "22" || questionId === "23" || questionId === "25" || questionId === "29" || questionId === "30" || questionId === "35" || questionId === "39" || questionId === "41" || questionId === "47" || questionId === "50") {
         score1result = score1result+2;
             document.getElementById("score1result").innerText = score1result;
             var s = document.getElementById("question");
